@@ -1,8 +1,45 @@
-body {
-    background-color:rgb(254, 254, 254);
-    color:rgb(0, 0, 0);
+* {
+    box-sizing:border-box;
+    /* border: 1px dashed black; */
+}
+html {
+    padding: 0;
 }
 
+body {
+    background-color:rgb(175,175,175    );
+    color:rgb(0, 0, 0);
+    width: 80%;
+    max-width: 800px;
+    border-left: 3px green dashed;
+    border-right: 3px green dashed;
+    padding:1px 3rem;
+    margin: 0 auto;
+    overflow:auto;  
+}
+
+#tocbox {
+    display:flex;
+    justify-content: center;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    text-align:center;
+}
 h2 {
     color: darkgreen;
+}
+
+h2:hover {
+    color:orangered;
+}
+
+img:hover {
+    width: 400px;
+}
+
+#imageholder {
+    text-align:center;
 }
