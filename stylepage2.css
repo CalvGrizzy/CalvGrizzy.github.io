@@ -1,0 +1,17 @@
+* {
+      box-sizing:border-box;
+    /* border: 1px dashed black; */    
+}
+
+html {
+    padding: 0;
+}
+
+body {
+
+    width: 90%;
+    padding:1px 3rem;
+    margin: 0 auto;
+    overflow:auto;  
+
+}
